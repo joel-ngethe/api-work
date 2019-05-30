@@ -16,7 +16,7 @@
 	</body>
 </html>
 <?php
-
+	
 	if(isset($_POST['submit'])){
 		$txt = $_POST['txt'];
 		
@@ -24,5 +24,9 @@
 		$res2 = preg_replace("/[^0-9]/", "", $res);
 		echo $res;
 		echo $res2;
+	}
+
+	function convertstring($txt){
+		
 	}
 ?>
